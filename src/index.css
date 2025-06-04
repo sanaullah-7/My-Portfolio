@@ -15,10 +15,9 @@
 
 }
 
-.l {
-    transform: translateX(10px);
-    /* Move right by 10px */
-    transform: scale(1.2);
-    /* Make it 120% of its size */
-    transform: rotate(45deg);
+.logo:hover {
+    transform: scale(1.2) rotate(360deg);
+    transition: 1.3s ease-in;
+    background-color: blue;
+    color: wheat;
 }

@@ -9,20 +9,18 @@ function HeoSection() {
     return (
         <div className="flex flex-col-reverse sm:flex-row  justify-between  sm:px-5  xl:px-24 pt-20 items-center">
             <div className="font-bold flex flex-col gap-y-5 sm:items-start items-center text-center sm:text-left">
-                <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold " >
+                <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold mt-4 sm:mt-0 " >
                     Hey, I am <br />
                     <span className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white" style={{ textShadow: '0 0 5px #ffffff, 0 8px 10px #000' }}>Sana Ullah</span>
                 </h1>
                 <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold">
                     I'm a
-                    <span className="md:font-extrabold text-[#ffffff] animate-shine"
+                    <span className="md:font-extrabold text-[#ffffff] "
 
-                        style={{ textShadow: '0 0 5px #ffffff, 0 0px 40px #000' }}>
+                        style={{ textShadow: '0 0 50px #ffffff, 0 0 40px #000', letterSpacing: '0.05em' }}>
                         <TypeAnimation
-                            sequence={[' Frontend Developer', 2000, ' MERN Stack Developer', 1000]}
+                            sequence={[' Frontend Developer', 2000, ' MERN Stack Developer', 2000]}
                             wrapper="span"
-                            speed={1}
-                            style={{}}
                             repeat={Infinity}
                         />
                     </span>
@@ -61,7 +59,7 @@ function HeoSection() {
                 <img
                     src={image}
                     alt="Profile"
-                    className="w-52 sm:w-72 md:w-72 lg:w-80  rounded-full shadow-2xl shadow-[blue]"
+                    className="w-52 sm:w-72 md:w-72 lg:w-80  rounded-full shadow-2xl shadow-[#afafee]"
                 />
             </div>
         </div>

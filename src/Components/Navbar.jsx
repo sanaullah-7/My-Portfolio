@@ -33,7 +33,7 @@ function Navbar() {
                 </div>
             </div>
             {/* small sreen */}
-            <div className='sm:hidden flex  items-center justify-between text-white w-full fixed z-10 shadow-2xl  p-5 font-bold bg-gradient-to-r from-blue-400 to-blue-600/70 shadow-[blue]'>
+            <div className='sm:hidden flex  items-center justify-between w-full fixed z-10 shadow-2xl  p-5 font-bold bg-gradient-to-r from-blue-400 to-blue-600/70 shadow-[blue]'>
 
                 <div className='flex gap-x-3 '>
                     <img src={image} className='h-12 w-12  rounded-full object-contain bg-black' alt="" />
@@ -43,7 +43,7 @@ function Navbar() {
                     </div>
 
                 </div>
-                <div onClick={handleToogle} className='cursor-pointer text-2xl'>
+                <div onClick={handleToogle} className='cursor-pointer text-2xl text-white'>
                     {Open ? <IoMdClose /> : <SlOptionsVertical />}
                 </div>
             </div >
@@ -51,9 +51,9 @@ function Navbar() {
             {/* Sliding Menu */}
             {
                 Open && (
-                    <div className='z-10 h-full fixed w-1/2 font-bold bg-gradient-to-r from-blue-400 to-blue-600/70   sm:hidden justify-between px-7 items-center  p-2 text-whit shadow-2xl shadow-black '>
+                    <div className='z-10 h-full mt-[5.5rem] fixed w-1/2 font-bold bg-gradient-to-r from-blue-400 to-blue-600/70   sm:hidden justify-between px-7 items-center  p-2 text-whit shadow-2xl shadow-black '>
 
-                        <div className='mt-20'  >
+                        <div className=''  >
                             <ul className='flex flex-col mt-20 gap-5 md:gap-9 hover:shadow-2xl hover:shadow-amber-400  '>
                                 <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Home</li></a>
                                 <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >About</li></a>
