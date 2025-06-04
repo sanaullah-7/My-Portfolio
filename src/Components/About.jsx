@@ -8,7 +8,7 @@ function About() {
                     className='font-bold text-3xl sm:text-4xl text-center   text-white '
                     style={{ textShadow: '0 0 5px #ffffff, 0 8px 10px #000' }}
                 >
-                    <span className="inline-block border-l-8  rounded bordeg border-[blue] pl-2">
+                    <span className="inline-block border-l-8  rounded bordeg border-black pl-2">
                         About Me
                     </span>
                 </h1>
