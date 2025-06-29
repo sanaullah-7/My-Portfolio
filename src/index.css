@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
 .highlight:hover {
     background-color: blue;
     transform: scale(1.1);

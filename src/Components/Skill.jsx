@@ -57,7 +57,7 @@ const logos = [
     },
     {
         logo: Express,
-        name: "Express",
+        name: "Express JS",
     },
     {
         logo: MongoDb,
@@ -95,9 +95,9 @@ const logos = [
 
 function Skill() {
     return (
-        <div className="mt-36">
+        <div id="skill" className="py-20">
             <h1 className='font-bold text-3xl sm:text-4xl text-center   text-white ' style={{ textShadow: '0 0 5px #ffffff, 0 8px 10px #000' }}>
-                <span className="inline-block border-l-8  rounded bordeg border-black pl-3 mr-5">Skills</span>
+                <span className="inline-block border-l-8  rounded bordeg border-black pl-3 mr-5">My Skills</span>
             </h1>
             <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 items-center place-items-center mt-16">
                 {logos.map((item) => (

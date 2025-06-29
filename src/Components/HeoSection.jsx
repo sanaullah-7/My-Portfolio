@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function HeoSection() {
     return (
-        <div className="flex flex-col-reverse sm:flex-row  justify-between  sm:px-5  xl:px-24 pt-20 items-center">
+        <div id='hero' className="flex flex-col-reverse sm:flex-row  justify-between  sm:px-5  xl:px-24 pt-36 items-center ">
             <div className="font-bold flex flex-col gap-y-5 sm:items-start items-center text-center sm:text-left">
                 <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold mt-4 sm:mt-0 " >
                     Hey, I am <br />

@@ -2,17 +2,17 @@ import React from 'react'
 
 function About() {
     return (
-        <div className='mt-28 px-5 xl:px-24 '>
+        <div id='about' className='py-24 px-5 xl:px-24 '>
             <div>
                 <h1
-                    className='font-bold text-3xl sm:text-4xl text-center   text-white '
+                    className='font-bold text-3xl  sm:text-4xl text-center   text-white '
                     style={{ textShadow: '0 0 5px #ffffff, 0 8px 10px #000' }}
                 >
-                    <span className="inline-block border-l-8  rounded bordeg border-black pl-2">
+                    <span className="inline-block border-l-8   rounded bordeg border-black pl-2">
                         About Me
                     </span>
                 </h1>
-                <p className='mt-5 sm:font-semibold text-md sm:text-2xl leading-relaxed text-justify'>
+                <p className='mt-6 sm:font-semibold text-md sm:text-2xl leading-relaxed text-justify'>
                     Hello! My name is Sana Ullah, and I am a passionate and dedicated student of
                     <strong> BS Information Technology (BSIT    )</strong> at Agriculture University Of Peshawar,
                     currently enrolled from 2023 to 2027. I specialize in <strong>frontend development</strong>

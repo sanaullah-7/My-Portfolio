@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='hidden sm:flex  justify-between px-7 items-center font-bold p-2 text-whit shadow-2xl shadow-[blue] '>
+            <div className='hidden sm:flex fixed w-full justify-between px-7 items-center font-bold p-2 bg-blue-600/70  shadow-xl shadow-blue-500 '>
                 <div className='flex gap-x-3 '>
                     <img src={image} className='h-12 w-12  rounded-full object-contain bg-black' alt="" />
                     <div className=' cursor-pointer text-xl' style={{ textShadow: '0 0 5px #fff, 0 0 5px #000' }} >
@@ -24,11 +24,11 @@ function Navbar() {
                 </div>
                 <div  >
                     <ul className='flex gap-5 md:gap-9  text-white  '>
-                        <a href=""> <li className=' nav' >Home</li></a>
-                        <a href=""> <li className=' nav' >About</li></a>
-                        <a href=""> <li className=' nav' >Skill</li></a>
-                        <a href=""> <li className=' nav' >Project</li></a>
-                        <a href=""> <li className=' nav' >Contact</li></a>
+                        <a href="#hero"> <li className=' nav' >Home</li></a>
+                        <a href="#about"> <li className=' nav' >About</li></a>
+                        <a href="#skill"> <li className=' nav' >Skill</li></a>
+                        <a href="#project"> <li className=' nav' >Project</li></a>
+                        <a href="#contact"> <li className=' nav' >Contact</li></a>
                     </ul>
                 </div>
             </div>
@@ -55,11 +55,11 @@ function Navbar() {
 
                         <div className=''  >
                             <ul className='flex flex-col mt-20 gap-5 md:gap-9 hover:shadow-2xl hover:shadow-amber-400  '>
-                                <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Home</li></a>
-                                <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >About</li></a>
-                                <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Skill</li></a>
-                                <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Project</li></a>
-                                <a href="" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Contact</li></a>
+                                <a href="#hero" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Home</li></a>
+                                <a href="#about" className='hover:shadow-2xl hover:shadow-amber-400'> <li >About</li></a>
+                                <a href="#skill" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Skill</li></a>
+                                <a href="#project" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Project</li></a>
+                                <a href="#contact" className='hover:shadow-2xl hover:shadow-amber-400'> <li >Contact</li></a>
                             </ul>
                         </div>
                     </div>

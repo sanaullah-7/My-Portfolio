@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-blue-700  via-blue-800 to-blue-950">
+      <div className="bg-gradient-to-r from-blue-300  via-blue-400 to-blue-500">
         <Home />
       </div>
     </>
