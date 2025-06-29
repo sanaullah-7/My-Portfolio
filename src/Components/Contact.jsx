@@ -5,7 +5,7 @@ function Contact() {
         <div id='contact' className='mt-4 py-20 place-items-center justify-center flex flex-col'>
             <h1 className='font-bold text-3xl sm:text-4xl text-center   text-white ' style={{ textShadow: '0 0 5px #ffffff, 0 8px 10px #000' }}>
                 <span className="inline-block border-l-8  rounded  border-black pl-3 mr-5">Contact Us</span>
-                <p className='font-semibold text-xl mt-5 text-black text-shadow-none w-1/2 mx-20 '>Please fill out the form below to contact me</p>
+                <p className='font-semibold text-xl mt-5 text-black text-shadow-none px-20  mx-20 '>Please fill out the form below to contact me</p>
             </h1>
             <div className='bg-[#b3a5a5] p-5 w-[320px] sm:w-[400px]  md:w-[500px] rounded-xl mt-9'>
                 <h1 className='font-bold  text-3xl'>Send Your Message</h1>
