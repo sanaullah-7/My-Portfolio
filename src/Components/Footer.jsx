@@ -33,10 +33,11 @@ function Footer() {
 
                 </div>
                 <h1 className=' text-center  border-t border-amber-50 py-5 '>
-                    <p className='mb-2'>&copy; 2025 Your Company.  All rights reserved. </p>
-                    <p>Made by  Sana-Ullah</p>
+                    <footer className="text-center text-gray-400 text-sm py-4">
+                        <p className="mb-1">&copy; 2025 Your Company. All rights reserved.</p>
+                        <p>Developed by Sana-Ullah</p>
+                    </footer>
                 </h1>
-
 
             </div>
         </div>

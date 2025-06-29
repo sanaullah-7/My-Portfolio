@@ -30,6 +30,16 @@ function HeoSection() {
                     <br />
                     " Transforming ideas into interactive masterpieces that empower entrepreneurs and solve real-world problems. "
                 </p>
+                <a
+                    className="bg-white p-2 font-bold text-lg rounded-lg cv"
+                    href="/My-CV.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Download CV
+                </a>
+
+
                 <div className="mt-4">
                     <h1 className="text-lg font-bold">Available On</h1>
                     <div className="flex gap-4 mt-2 text-2xl text-[white]">
@@ -54,7 +64,6 @@ function HeoSection() {
                     </div>
                 </div>
             </div>
-
             <div className="pt-10 sm:pt-0 sm:mb-52 lg:mb-40  flex justify-center">
                 <img
                     src={image}

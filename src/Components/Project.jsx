@@ -10,55 +10,33 @@ import image8 from "../assets/project/Screenshot (31).png"
 import image9 from "../assets/project/Screenshot (32).png"
 import image10 from "../assets/project/Screenshot (33).png"
 import image11 from "../assets/project/Screenshot (34).png"
+import image12 from "../assets/project/Screenshot (36).png"
+
 //import image12 from "../assets/project/Screenshot (35).png"
 
 
 
 const Projects = [
     {
-        image: image,
-        name: "Tic-Tac Toe",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/Digital_Tic-Tac",
-        Live: "https://digital-tic-tac.vercel.app/"
+        image: image11,
+        name: "E-commerce Shop",
+        description: "“This is my ‘E-commerce Shop’, which I built using React.js and the Tailwind CSS framework.”",
+        Github: "https://github.com/sanaullah-7/E-commerce-Project",
+        Live: "https://e-commerce-project-henna-iota.vercel.app/"
 
     },
     {
-        image: image3,
-        name: "Temperature Converter Project",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/temprtature-converter",
-        Live: "https://sanaullah-7.github.io/temprtature-converter/"
-
-    },
-    {
-        image: image4,
-        name: "Registration Form",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/Registration-Form",
-        Live: "https://registration-form-mu-eight.vercel.app/"
-
-    },
-    {
-        image: image5,
-        name: "To Do List",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/To-DO-List",
-        Live: "https://to-do-list-theta-orpin-10.vercel.app/"
-
-    },
-    {
-        image: image6,
-        name: "Calculator",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/Calculator",
-        Live: "https://sanaullah-7.github.io/Calculator/"
+        image: image12,
+        name: "Recipes Project",
+        description: "“This is my ‘Recipes Project’, which I built using React.js and the Tailwind CSS framework.”  ",
+        Github: "https://github.com/sanaullah-7/My-First-Responsive-Project",
+        Live: ""
 
     },
     {
         image: image8,
         name: "Form Validation",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
+        description: "This is my ''Form Validation Project'' that i build using HTML,CSS and JavaScript and also that will be store into a localStorage",
         Github: "https://github.com/sanaullah-7/Form-Validation",
         Live: "https://form-validation-withlocalstorage.vercel.app/"
 
@@ -66,49 +44,73 @@ const Projects = [
     {
         image: image2,
         name: "Weather App",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
+        description: "This is my ''Weather App Mini Project'' that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/Weather-App/tree/main",
         Live: "https://weather-app-iota-jet.vercel.app/"
 
     },
     {
-        image: image9,
-        name: "User Find",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/UserFind",
-        Live: "https://sanaullah-7.github.io/UserFind/"
-
-    },
-    {
         image: image10,
         name: "Currency Converter",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
+        description: "“This is my ‘Currency Converter’ app that I built using HTML, CSS, and JavaScript. It uses an API to fetch data from a database.",
         Github: "https://github.com/sanaullah-7/Currency_Converter",
         Live: "https://sanaullahtechcom.vercel.app/"
 
     },
     {
         image: image7,
-        name: "Recipes Project",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/My-First-Responsive-Project",
-        Live: ""
-
-    },
-    {
-        image: image11,
-        name: "E-commerce Shop",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/E-commerce-Project",
-        Live: "https://e-commerce-project-henna-iota.vercel.app/"
-
-    },
-    {
-        image: image7,
         name: "Popular Movies (TMBD)",
-        description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
+        description: "“This is my ‘Popular Movies (TMBD)’ app that I built using HTML, CSS, and JavaScript. It uses an API to fetch data from a database.",
         Github: "https://github.com/sanaullah-7/Movies-Fetching/tree/main",
         Live: "https://sanaullah-7.github.io/Movies-Fetching/"
+
+    },
+    {
+        image: image9,
+        name: "User Find",
+        description: "“This is my ‘User Find’ app that I built using HTML, CSS, and JavaScript. It uses an API to fetch data from a database.",
+        Github: "https://github.com/sanaullah-7/UserFind",
+        Live: "https://sanaullah-7.github.io/UserFind/"
+
+    },
+    {
+        image: image6,
+        name: "Calculator",
+        description: "This is my ''Calculator'' mini project that i build using HTML,CSS and JavaScript",
+        Github: "https://github.com/sanaullah-7/Calculator",
+        Live: "https://sanaullah-7.github.io/Calculator/"
+
+    },
+    {
+        image: image3,
+        name: "Temperature Converter ",
+        description: "This is my ''Temperature Converter Project''  that i build using HTML,CSS and JavaScript",
+        Github: "https://github.com/sanaullah-7/temprtature-converter",
+        Live: "https://sanaullah-7.github.io/temprtature-converter/"
+
+    },
+    {
+        image: image,
+        name: "Tic-Tac Toe",
+        description: "This is my ''Tic-Tac Toe'' game that i build using HTML,CSS and JavaScript",
+        Github: "https://github.com/sanaullah-7/Digital_Tic-Tac",
+        Live: "https://digital-tic-tac.vercel.app/"
+
+    },
+    {
+        image: image5,
+        name: "To Do List",
+        description: "This is my ''To Do List'' that i build using HTML,CSS and JavaScript",
+        Github: "https://github.com/sanaullah-7/To-DO-List",
+        Live: "https://to-do-list-theta-orpin-10.vercel.app/"
+
+    },
+    {
+        image: image4,
+        name: "Registration Form",
+        description: "This is my ''Registration Form''  that i build using HTML,CSS and JavaScript",
+        Github: "https://github.com/sanaullah-7/Registration-Form",
+        Live: "https://registration-form-mu-eight.vercel.app/"
 
     },
 ]
