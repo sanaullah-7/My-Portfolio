@@ -1,5 +1,18 @@
 import React from 'react'
 import image from "../assets/project/image.png"
+import image2 from "../assets/project/Screenshot (25).png"
+import image3 from "../assets/project/Screenshot (26).png"
+import image4 from "../assets/project/Screenshot (27).png"
+import image5 from "../assets/project/Screenshot (28).png"
+import image6 from "../assets/project/Screenshot (29).png"
+import image7 from "../assets/project/Screenshot (30).png"
+import image8 from "../assets/project/Screenshot (31).png"
+import image9 from "../assets/project/Screenshot (32).png"
+import image10 from "../assets/project/Screenshot (33).png"
+import image11 from "../assets/project/Screenshot (34).png"
+//import image12 from "../assets/project/Screenshot (35).png"
+
+
 
 const Projects = [
     {
@@ -11,7 +24,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image3,
         name: "Temperature Converter Project",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/temprtature-converter",
@@ -19,7 +32,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image4,
         name: "Registration Form",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/Registration-Form",
@@ -27,7 +40,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image5,
         name: "To Do List",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/To-DO-List",
@@ -35,7 +48,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image6,
         name: "Calculator",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/Calculator",
@@ -43,7 +56,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image8,
         name: "Form Validation",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/Form-Validation",
@@ -51,15 +64,15 @@ const Projects = [
 
     },
     {
-        image: image,
-        name: "Form Validation",
+        image: image2,
+        name: "Weather App",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/Form-Validation",
-        Live: "https://form-validation-withlocalstorage.vercel.app/"
+        Github: "https://github.com/sanaullah-7/Weather-App/tree/main",
+        Live: "https://weather-app-iota-jet.vercel.app/"
 
     },
     {
-        image: image,
+        image: image9,
         name: "User Find",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/UserFind",
@@ -67,7 +80,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image10,
         name: "Currency Converter",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/Currency_Converter",
@@ -75,7 +88,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image7,
         name: "Recipes Project",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/My-First-Responsive-Project",
@@ -83,7 +96,7 @@ const Projects = [
 
     },
     {
-        image: image,
+        image: image11,
         name: "E-commerce Shop",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
         Github: "https://github.com/sanaullah-7/E-commerce-Project",
@@ -91,11 +104,11 @@ const Projects = [
 
     },
     {
-        image: image,
-        name: "Teckhawa",
+        image: image7,
+        name: "Popular Movies (TMBD)",
         description: "This is my tic-tac toe game that i build using HTML,CSS and JavaScript",
-        Github: "https://github.com/sanaullah-7/Techkhawa",
-        Live: "https://techkhawa.vercel.app/"
+        Github: "https://github.com/sanaullah-7/Movies-Fetching/tree/main",
+        Live: "https://sanaullah-7.github.io/Movies-Fetching/"
 
     },
 ]
@@ -110,7 +123,7 @@ function Project() {
                 {Projects.map((item) => (
                     <div className='flex flex-col items-center place-items-center bg-white w-[300px] sm:w-[350px] p-4 rounded-xl'>
                         <div>
-                            <img className='sm:h-[300px] sm:w-[300px] rounded-sm' src={item.image} alt="" />
+                            <img className='sm:h-[300px] sm:w-[300px] rounded-sm ' src={item.image} alt="" />
                         </div>
                         <h1 className='text-xl font-extrabold' >{item.name}</h1>
 
